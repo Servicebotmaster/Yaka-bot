@@ -27,13 +27,13 @@ mongoose.set('strictQuery', true);
 
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "94774516277";   // You can Change this number //
+  gg = "6797309646";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
-global.owner = gg.split(",");
+global.owner = gg.split("6797309646");
 global.mongodb = process.env.MONGODB || "mongodb+srv://ThatOneGirlWithBigBootyAndBoobs2023:SendMeUrBoobsPic4535@cluster2023.bblquhi.mongodb.net/?retryWrites=true&w=majority"; // paste your own MongoDB url..
 global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || ".";
